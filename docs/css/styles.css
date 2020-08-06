@@ -6533,15 +6533,15 @@ button.bg-dark:focus {
 }
 .embed-responsive {
   position: relative;
-  /* display: block;
+  display: block;
   width: 100%;
   padding: 0;
-  overflow: hidden; */
+  overflow: hidden;
 }
-/* .embed-responsive::before {
+.embed-responsive::before {
   display: block;
   content: "";
-} */
+}
 .embed-responsive .embed-responsive-item,
 .embed-responsive iframe,
 .embed-responsive embed,
