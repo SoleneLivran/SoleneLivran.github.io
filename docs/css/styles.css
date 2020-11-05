@@ -478,7 +478,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -10116,9 +10116,6 @@ section.resume-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
   max-width: 75rem;
-}
-section.resume-section#portfolio {
-    max-width: 100rem;
 }
 section.resume-section .resume-section-content {
   width: 100%;
