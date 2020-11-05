@@ -107,10 +107,13 @@ address {
 }
 
 ol,
-ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+ul {
+    margin: 0;
 }
 
 ol ol,
