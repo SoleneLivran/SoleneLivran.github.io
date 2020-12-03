@@ -10171,3 +10171,46 @@ section.resume-section .resume-section-content {
     opacity: 1;
   }
 
+  .twitter-tweet {
+      max-width: 300px !important;
+      /*width: 100% !important;*/
+      margin: 1em !important;
+      /*background-color: white;*/
+      /*display: block;*/
+      /*border: 1px solid #6c757d;*/
+      /*border-radius: 10px;*/
+      /*padding: 1em;*/
+  }
+
+.twitter-tweet a {
+    color: #99BABE !important;
+}
+
+  @media (max-width: 400px) {
+      .twitter-tweet {
+          margin: 0em auto 1em auto !important;
+      }
+
+  }
+
+  .technology-watch-post {
+      width: 300px;
+      margin: 1em;
+      /*background-color: rgba(153, 186, 190, 0.8);*/
+      /*background-color: rgba(153, 186, 190, 0.2);*/
+      /*border: 5px solid #99BABE;*/
+      /*border: 1px solid grey;*/
+      border: 1px solid lightgrey;
+      border-radius: 10px;
+      padding: 1em;
+  }
+
+.technology-watch-post a {
+    /*color: rgba(255, 255, 255, 0.5);*/
+    /*color: white;*/
+}
+
+  .technology-watch {
+      display: flex;
+      flex-wrap: wrap;
+  }
