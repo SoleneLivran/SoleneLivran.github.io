@@ -10188,7 +10188,7 @@ section.resume-section .resume-section-content {
 }
 
 .technology-watch-section > input + * {
-    height: 630px;
+    height: 580px;
     overflow: hidden;
 }
 
@@ -10227,7 +10227,7 @@ section.resume-section .resume-section-content {
 
 @media (max-width: 1031px) {
     .technology-watch-section > input + * {
-        height: 880px;
+        height: 830px;
     }
 }
 
@@ -10253,13 +10253,13 @@ section.resume-section .resume-section-content {
 
 @media (max-width: 695px) {
     .technology-watch-section > input + * {
-        height: 880px;
+        height: 820px;
     }
 }
 
 @media (max-width: 675px) {
     .technology-watch-section > input + * {
-        height: 1000px;
+        height: 1030px;
     }
 
     .technology-watch-post,
@@ -10271,7 +10271,7 @@ section.resume-section .resume-section-content {
 
 @media (max-width: 470px) {
     .technology-watch-section > input + * {
-        height: 1040px;
+        height: 1110px;
     }
 
     .technology-watch-post,
