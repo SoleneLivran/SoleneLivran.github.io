@@ -10212,17 +10212,10 @@ section.resume-section .resume-section-content {
     max-width: 290px !important;
     min-width: 260px !important;
     margin: 1em !important;
-    /*height: 200px !important;*/
 }
 
 .twitter-tweet a {
     color: #99BABE !important;
-}
-
-@media (max-width: 1333px) {
-    .technology-watch-section > input + * {
-        height: 580px;
-    }
 }
 
 @media (max-width: 1031px) {
