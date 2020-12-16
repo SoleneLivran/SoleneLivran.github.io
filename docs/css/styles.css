@@ -10140,11 +10140,15 @@ section.resume-section .resume-section-content {
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
     max-width: 1920px;
   }
-  #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box {
+#portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box {
     position: relative;
     display: block;
   }
-  #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption {
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+.portfolio-box-caption {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10159,23 +10163,20 @@ section.resume-section .resume-section-content {
     background: #99babe;
     transition: opacity 0.25s ease;
     text-align: center;
-  }
-  #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1;
-  }
+}
 
-  .project-category {
-      font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-      font-size: 0.85rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      margin-bottom: 1rem;
-  }
+.project-category {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
 
-  .project-name {
-      margin: 0 0.5rem 1rem 0.5rem;
-      font-size: 1.2rem;
-  }
+.project-name {
+    margin: 0 0.5rem 1rem 0.5rem;
+    font-size: 1.2rem;
+}
 
 /*Portfolio media rules */
 @media (max-width: 1100px) {
@@ -10200,26 +10201,39 @@ section.resume-section .resume-section-content {
         font-size: 1.2rem;
     }
 }
-@media (max-width: 400px) {
-    .project-name {
-        line-height: 1.5rem;
-        margin: 0 0.5rem 0.5rem;
-        font-size: 1.2rem;
-    }
 
-    .project-category {
-        margin-bottom: 0.2rem;
-        font-size: 0.8rem;
+@media (hover: none) { /* for tactile devices : most important info without needing to hover*/
+    .portfolio-box-caption {
+        opacity: 1;
+        height: 33%;
+        background-color: rgba(153, 186, 190, 0.9);
     }
-
+    .project-type {
+        display: none;
+    }
     .project-access-link {
-        font-size: 0.85rem;
-        margin: 0;
+        display: none;
+    }
+    .project-techno {
+        font-size: 0.8rem;
+        order: 1;
+        margin-bottom: 0.2rem;
+        line-height: 1rem;
+    }
+    .project-name {
+        font-size: 1rem;
+        line-height: 1rem;
+        order: 2;
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 400px) {
+    .project-techno {
+        margin-bottom: 0;
     }
 }
 
 /*TECHNO-WATCH*/
-
 .technology-watch {
     display: flex;
     flex-wrap: wrap;
