@@ -10203,12 +10203,12 @@ section.resume-section .resume-section-content {
 @media (max-width: 400px) {
     .project-name {
         line-height: 1.5rem;
-        margin: 0 0.5rem 0.8rem;
+        margin: 0 0.5rem 0.5rem;
         font-size: 1.2rem;
     }
 
     .project-category {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.2rem;
         font-size: 0.8rem;
     }
 
