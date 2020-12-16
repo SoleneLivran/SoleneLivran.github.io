@@ -10178,27 +10178,23 @@ section.resume-section .resume-section-content {
     font-size: 1.2rem;
 }
 
-/*Portfolio media rules */
-@media (max-width: 1100px) {
+/*Portfolio media rules*/
+@media (max-width: 1100px) { /*reduce bottom margins to avoid overflow*/
     .project-category {
-        font-size: 0.85rem;
         margin-bottom: 0.5rem;
     }
 
     .project-name {
-        margin: 0 0.5rem 0.5rem 0.5rem;
-        font-size: 1.2rem;
+        margin-bottom: 0.5rem
     }
 }
-@media (max-width: 991px) {
+@media (max-width: 991px) { /*go back to previous settings (lateral bar has disappeared, tiles get bigger again)*/
     .project-category {
-        font-size: 0.85rem;
         margin-bottom: 1rem;
     }
 
     .project-name {
-        margin: 0 0.5rem 1rem 0.5rem;
-        font-size: 1.2rem;
+        margin-bottom: 1rem;
     }
 }
 
