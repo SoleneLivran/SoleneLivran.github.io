@@ -10330,7 +10330,7 @@ section.resume-section .resume-section-content {
 
 @media (max-width: 470px) {
     .technology-watch-section > input + * {
-        height: 1150px;
+        height: 1160px;
     }
 
     .technology-watch-post,
