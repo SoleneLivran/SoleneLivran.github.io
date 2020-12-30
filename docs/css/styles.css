@@ -10253,7 +10253,7 @@ section.resume-section .resume-section-content {
 }
 
 .technology-watch-section > input + * {
-    height: 580px;
+    height: 640px;
     overflow: hidden;
 }
 
@@ -10286,7 +10286,7 @@ section.resume-section .resume-section-content {
 /*Techno watch media rules*/
 @media (max-width: 1333px) {
     .technology-watch-section > input + * {
-        height: 650px;
+        height: 580px;
     }
 }
 
@@ -10300,7 +10300,7 @@ section.resume-section .resume-section-content {
 
 @media (max-width: 991px) {
     .technology-watch-section > input + * {
-        height: 650px;
+        height: 580px;
     }
 
     .technology-watch-post,
@@ -10310,15 +10310,9 @@ section.resume-section .resume-section-content {
     }
 }
 
-@media (max-width: 695px) {
-    .technology-watch-section > input + * {
-        height: 650px;
-    }
-}
-
 @media (max-width: 675px) {
     .technology-watch-section > input + * {
-        height: 1130px;
+        height: 1090px;
     }
 
     .technology-watch-post,
@@ -10330,7 +10324,7 @@ section.resume-section .resume-section-content {
 
 @media (max-width: 470px) {
     .technology-watch-section > input + * {
-        height: 1160px;
+        height: 1120px;
     }
 
     .technology-watch-post,
