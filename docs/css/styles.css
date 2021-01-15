@@ -10286,7 +10286,7 @@ section.resume-section .resume-section-content {
 /*Techno watch media rules*/
 @media (max-width: 1333px) {
     .technology-watch-section > input + * {
-        height: 580px;
+        height: 620px;
     }
 }
 
@@ -10300,7 +10300,7 @@ section.resume-section .resume-section-content {
 
 @media (max-width: 991px) {
     .technology-watch-section > input + * {
-        height: 580px;
+        height: 620px;
     }
 
     .technology-watch-post,
@@ -10312,7 +10312,7 @@ section.resume-section .resume-section-content {
 
 @media (max-width: 675px) {
     .technology-watch-section > input + * {
-        height: 1090px;
+        height: 1020px;
     }
 
     .technology-watch-post,
@@ -10324,7 +10324,7 @@ section.resume-section .resume-section-content {
 
 @media (max-width: 470px) {
     .technology-watch-section > input + * {
-        height: 1120px;
+        height: 1100px;
     }
 
     .technology-watch-post,
