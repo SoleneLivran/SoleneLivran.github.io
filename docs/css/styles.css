@@ -10210,12 +10210,6 @@ section.resume-section .resume-section-content {
     .project-access-link {
         display: none;
     }
-    .portfolio-roadmaps .portfolio-box-caption .project-access-link {
-        order: 3;
-        display: block;
-        font-size: 0.7rem;
-        margin: 0;
-    }
     .project-techno {
         font-size: 0.8rem;
         order: 1;
