@@ -10247,7 +10247,7 @@ section.resume-section .resume-section-content {
 }
 
 .technology-watch-section > input + * {
-    height: 640px;
+    height: 930px;
     overflow: hidden;
 }
 
@@ -10306,7 +10306,7 @@ section.resume-section .resume-section-content {
 
 @media (max-width: 675px) {
     .technology-watch-section > input + * {
-        height: 1300px;
+        height: 1560px;
     }
 
     .technology-watch-post,
@@ -10318,7 +10318,7 @@ section.resume-section .resume-section-content {
 
 @media (max-width: 470px) {
     .technology-watch-section > input + * {
-        height: 1180px;
+        height: 1100px;
     }
 
     .technology-watch-post,
