@@ -48,19 +48,63 @@
                     Projet personnel
                 </div>
                 <div class="subheading mb-3">
-                    Hapi.js · Nuxt.js
+                    Hapi.js
                 </div>
                 <p class="lead mb-2">
                     Projet en cours de développement
                 </p>
                 <p>
-                    Interface développée à destination de mes amis, afin de partager avec eux le contenu de ma bibliothèque,
-                    de demander un emprunt, et de suivre les disponibilités.
+                    Application web développée à destination de mes proches, afin de partager avec eux le contenu de ma
+                    bibliothèque, leur permettre de demander un emprunt et de suivre les disponibilités.
                 </p>
                 <p>
-                    Toutes les informations sur les livres ont été compilées via leur n° ISBN ou des ajouts manuels via
-                    l'application "Ma bibliothèque", à partir de laquelle est exporté un fichier csv contenant toutes les
-                    données nécessaires.
+                    Le projet comporte, pour l'instant, un backend Hapi.js et un frontend JS basique.
+                    <br>
+                    Les données de labibliothèque sont stockées dans une base SQLite.
+                </p>
+                <p>
+                    Les prochaines évolutions prioritaires prévues sont :
+                    <br>
+                    - la mise en place de tests unitaires pour les fonctionnalités en place
+                    <br>
+                    - la migration des données vers une base PostgreSQL
+                    <br>
+                    - le déploiement du site
+                    <br>
+                    - le design et le développement du frontend avec Vue.js
+                </p>
+                <div>
+                    <strong>Fonctionnalités principales développées :</strong>
+                    <ul>
+                        <li>
+                            Liste complète des livres avec détails (titre, auteurs, série, genres, statut, résumé, etc.)
+                        </li>
+                        <li>Affichage/masquage des détails (toggle)</li>
+                        <li>Filtres par disponibilité et par langue</li>
+                        <li>Liste des livres par genre</li>
+                        <li>
+                            Gestion des statuts (non-empruntable, disponible, à domicile uniquement, réservé, emprunté)
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <div>
+                    <strong>Prochaines fonctionnalités prévues :</strong>
+                    <ul>
+                        <li>Design du frontend</li>
+                        <li>Recherche directe des livres par titre ou par auteur</li>
+                        <li>Mise en place des comptes utilisateurs et authentification</li>
+                        <li>Wishlist et réservations par les utilisateurs</li>
+                        <li>Système de notation ou d'avis sur livres</li>
+                        <li>Gestion en direct des statuts, prêts et réservations</li>
+                    </ul>
+                </div>
+                <br>
+                <p>
+                    Repo Github :
+                    <a class="social-icon" href="https://github.com/SoleneLivran/lilys-library">
+                        <i class="fab fa-github"></i>
+                    </a>
                 </p>
             </div>
         </section>
